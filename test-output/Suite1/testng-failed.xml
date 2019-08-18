@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="Command line test 9c5bad33-6f01-4ea4-b28c-8dfdf93848e8(failed)">
+    <classes>
+      <class name="ytPkg.TC2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="baseMethod"/>
+          <include name="loginAndClickSubscription"/>
+        </methods>
+      </class> <!-- ytPkg.TC2 -->
+      <class name="ytPkg.TC1">
+        <methods>
+          <include name="loginAndClickTrending"/>
+          <include name="afterMethod"/>
+          <include name="baseMethod"/>
+        </methods>
+      </class> <!-- ytPkg.TC1 -->
+    </classes>
+  </test> <!-- Command line test 9c5bad33-6f01-4ea4-b28c-8dfdf93848e8(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

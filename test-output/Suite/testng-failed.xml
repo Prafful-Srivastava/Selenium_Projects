@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ytPkg.TC2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="baseMethod"/>
+          <include name="loginAndClickSubscription"/>
+        </methods>
+      </class> <!-- ytPkg.TC2 -->
+      <class name="ytPkg.TC4">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="baseMethod"/>
+          <include name="videoPlayAndSubscribe"/>
+        </methods>
+      </class> <!-- ytPkg.TC4 -->
+      <class name="ytPkg.TC3">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="baseMethod"/>
+          <include name="videoPlayAndLike"/>
+        </methods>
+      </class> <!-- ytPkg.TC3 -->
+      <class name="ytPkg.TC1">
+        <methods>
+          <include name="loginAndClickTrending"/>
+          <include name="afterMethod"/>
+          <include name="baseMethod"/>
+        </methods>
+      </class> <!-- ytPkg.TC1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

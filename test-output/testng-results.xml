@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72178" started-at="2019-06-05T07:00:59Z" finished-at="2019-06-05T07:02:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72178" started-at="2019-06-05T07:00:59Z" finished-at="2019-06-05T07:02:11Z">
+      <class name="ytPkg.DataDriven">
+        <test-method status="PASS" signature="baseMethod()[pri:0, instance:ytPkg.DataDriven@1ee9faa]" name="baseMethod" is-config="true" duration-ms="17400" started-at="2019-06-05T07:00:59Z" finished-at="2019-06-05T07:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseMethod -->
+        <test-method status="PASS" signature="tc(java.lang.String, java.lang.String)[pri:0, instance:ytPkg.DataDriven@1ee9faa]" name="tc" duration-ms="9114" started-at="2019-06-05T07:01:16Z" data-provider="dp" finished-at="2019-06-05T07:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prafful.mpecei@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shivjimylord@108]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ytPkg.DataDriven@1ee9faa]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-05T07:01:25Z" finished-at="2019-06-05T07:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="baseMethod()[pri:0, instance:ytPkg.DataDriven@1ee9faa]" name="baseMethod" is-config="true" duration-ms="35782" started-at="2019-06-05T07:01:25Z" finished-at="2019-06-05T07:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseMethod -->
+        <test-method status="PASS" signature="tc(java.lang.String, java.lang.String)[pri:0, instance:ytPkg.DataDriven@1ee9faa]" name="tc" duration-ms="9579" started-at="2019-06-05T07:02:01Z" data-provider="dp" finished-at="2019-06-05T07:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prafful.shri@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shibbu@16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ytPkg.DataDriven@1ee9faa]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-06-05T07:02:11Z" finished-at="2019-06-05T07:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ytPkg.DataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
