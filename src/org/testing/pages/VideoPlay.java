@@ -20,7 +20,6 @@ public class VideoPlay
 	
 	public void playVideo() 
 	{
-		//WebElement we = driver.findElement(By.xpath("//div[@id = 'scroll-container']/div[@id = 'items']/ytd-grid-video-renderer/div[@id='dismissable']/ytd-thumbnail/a[@id='thumbnail']/yt-img-shadow/img[@id='img']"));
 		WebElement we = driver.findElement(By.xpath(pr.getProperty("we")));
 		int vc = we.findElements(By.xpath("//img[@id = 'img']")).size();
 		System.out.println("video count is" + vc);

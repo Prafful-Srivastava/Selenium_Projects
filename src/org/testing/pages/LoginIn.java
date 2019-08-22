@@ -19,18 +19,14 @@ public class LoginIn
 	
 	public void signIn(String user, String password) 
 	{
-		//WebElement si = driver.findElement(By.xpath("//paper-button[@aria-label = 'Sign in']"));
 		WebElement si = driver.findElement(By.xpath(pr.getProperty("si")));
 		si.click();
-		//WebElement e = driver.findElement(By.xpath("//input[@type = 'email']"));
 		WebElement e = driver.findElement(By.xpath(pr.getProperty("e")));
 		e.sendKeys(user);
-		//WebElement next = driver.findElement(By.cssSelector("span.RveJvd.snByac"));
 		WebElement next = driver.findElement(By.cssSelector(pr.getProperty("next")));
 		next.click();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		//WebElement passwd = driver.findElement(By.xpath("//input[@name = 'password']"));
 		WebElement passwd = driver.findElement(By.xpath(pr.getProperty("passwd")));
 		passwd.sendKeys(password);
 		WebElement finalnext = driver.findElement(By.cssSelector(pr.getProperty("finalnext")));
